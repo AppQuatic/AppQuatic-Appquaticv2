@@ -1,0 +1,24 @@
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_lista_buscar"
+        android:title="@string/lista_buscar_menu"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_lista_actualizar_lista"
+        android:icon="@android:drawable/ic_popup_sync"
+        app:showAsAction="always"
+        android:title="TODO">
+    </item>
+    <item
+        android:id="@+id/action_lista_favorito_mode"
+        android:icon="@android:drawable/btn_star"
+        app:showAsAction="always"
+        android:title="TODO">
+    </item>
+
+</menu>

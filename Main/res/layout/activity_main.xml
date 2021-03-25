@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="3sp"
+    android:paddingLeft="3sp"
+    android:paddingTop="3sp"
+    android:paddingRight="3sp"
+    android:paddingBottom="3sp"
+    tools:context=".Ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="44sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="204dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:text="@string/iniciar_sesion"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp">
+
+        <TextView
+            android:id="@+id/main_activity_textView_nombre_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:text="@string/usuario"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/main_activity_textView_nombre_usuario_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:duplicateParentState="false"
+            android:lines="1"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:text="Antonio"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp">
+
+        <TextView
+            android:id="@+id/main_activity_textView_pass_eti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:text="@string/pass"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/main_activity_editTextTextPassword_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="3sp"
+            android:paddingLeft="3sp"
+            android:paddingTop="3sp"
+            android:paddingRight="3sp"
+            android:paddingBottom="3sp"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_activity_imageButton_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp"
+        android:text="@string/iniciar_sesion"
+        android:textSize="24sp"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/main_activity_textView_resultado_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="3sp"
+        android:paddingLeft="3sp"
+        android:paddingTop="3sp"
+        android:paddingRight="3sp"
+        android:paddingBottom="3sp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
