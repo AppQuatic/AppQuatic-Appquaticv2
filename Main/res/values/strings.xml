@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AppQuatic</string>
+
+    <string name="usuario">Usuario</string>
+
+    <string name="pass">Contraseña</string>
+
+    <string name="iniciar_sesion">Iniciar sesión</string>
+
+    <string name="introduce_credenciales">Introduce credenciales</string>
+
+    <string name="acceso_usuario_concedido">Bienvenido</string>
+
+    <string name="acceso_usuario_denegado">Credenciales NO validas</string>
+
+    <string name="barra_progreso_descargando_lecturas">Descargado datos</string>
+
+    <string name="WindSurf">WindSurf</string>
+
+    <string name="KiteSurf">KiteSurf</string>
+
+    <string name="Surf">Surf</string>
+
+    <string name="Deportes">Deportes</string>
+
+    <string name="lista_buscar_menu">Buscar</string>
+
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">second_fragment_label</string>
+    <string name="No_practicable">No practicable</string>
+
+
+</resources>
